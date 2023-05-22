@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Douglas Rivas</title>
+    <style>
+        body {
+            font-family: 'Gothic', Times, serif, sans-serif;
+            margin: 0;
+            padding: 100px;
+        }
+
+        header {
+            background-color: #135;
+            color: #fff;
+            padding: 11px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            color: #189;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #167;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .contact-links a {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .header-box {
+            width: 200px;
+            height: 200px;
+            background-color: lightpink;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .header-box h1, .header-box p {
+            margin: 10px;
+        }
+
+        .black-link {
+            color: black;
+        }
+
+        /* Add a new font for the "About Me" section */
+        #about p {
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <h1>Douglas Rivas</h1>
+            <p><a href="mailto:(anthonysixr@gmail.com)" class="black-link">anthonysixr@gmail.com</a></p>
+        </div>
+    </header>
+    <body>
+        <header>
+            <img src="IMG-0035.JPG" alt="Profile Picture" style="width: 200px; height: auto; margin: 0 auto; display: block;">
+        </header>
+    </body>
+    <main>
+        <section id="intro">
+            <h2 style="font-size: 18px;">Hey, I'm Douglas Rivas. I have no idea what the hell I'm doing and sometimes I don't know how I'm still alive, lol but here I am... and im going to pass this course with flying colors. Also I live in Portland.</h2>
+        </section>
+        <section id="about">
+            <h2 style="font-size: 14px;">About Me</h2>
+            <p>
+                I enjoy going out for drinks with friends.<br><br>
+                I enjoy playing video games.<br><br>
+                I like playing billiards and chess.
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="(Age 30, White Male)" target="_blank">LinkedIn</a>
+                <a href="mailto:anthonysixr@gmail.com">Email</a>
+                <a href="https://goo.gl/maps/bLF8CGEcXpSnDGUn7" target="_blank" style="margin-top: 10px;">Google Maps Location</a>
+            </div>
+        </section>
+    </main>
+</body
